@@ -1,0 +1,113 @@
+.one {
+    width: 100%;
+    min-height: 1000px;
+    background-image: url(../img/temp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__top {
+    width: 80%;
+    margin: 0 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.header__top-logo,
+.header__top-nav {
+    margin-top: 57px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.header__top-nav ul li {
+    display: inline-block;
+}
+
+.header__top-nav a,
+.header__top-logo {
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 11px;
+    cursor: pointer;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.header__top-nav a {
+    display: inline-block;
+    font-size: 16px;
+    border: 1px solid transparent;
+}
+
+.header__top-nav a:hover {
+    border: 1px solid #333;
+}
+
+.header__top-logo {
+    font-size: 18px;
+}
+
+.banner {
+    width: 80%;
+    min-height: 900px;
+    margin: 0 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.banner__title,
+.banner__text,
+.button {
+    display: block;
+}
+
+.banner__title {
+    font-size: 62px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.banner__title:after {
+    content: "";
+    display: block;
+    width: 138px;
+    height: 4px;
+    border-bottom: 4px solid #333;
+    margin-top: 29px;
+    margin-bottom: 44px;
+    margin-left: 313px;
+    box-sizing: border-box;
+}
+
+.banner__text {
+    font-size: 16.5px;
+}
+
+.button {
+    margin-top: 59px;
+    padding: 20px 82px;
+    border: 2px solid #333;
+    color: #333;
+    background: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
